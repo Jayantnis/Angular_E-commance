@@ -1,0 +1,55 @@
+<div class="container">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- <div *ngFor="let item of  alldata">
+
+            </div> -->
+            <div class="carousel-item active">
+                <img src="../../assets/img/img4.jpg" class="d-block w-100" alt="error image">
+                <div class="carousel-caption">
+                    <h3>Bread & Pastry</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/img/img5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>Dairy</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/img/img6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>Takeaway</h3>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+
+    <div class="container-fluid">
+        <div class="card" *ngFor="let item of getdata">
+            <img src="{{item.image}}" id="setimg" class="card-img" alt="...">
+            <div class="card-body">
+
+                <h5 class="card-title">{{item.productName}}</h5>
+                <p class="card-text">{{item.info}}</p>
+                <a href="#" class="btn btn-primary">Browse</a>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,75 @@
+{
+    "myDatabase": [{
+            "id": 1,
+            "productNo": "",
+            "availableProduct": "15",
+            "productName": "Meat",
+            "price": 5,
+            "image": "assets/img/img10.jpg",
+            "info": "It's consistently excellent ,dihes are superb and healthily dfgfdgdfgsdfdssdfsdf sdfs sdfsdf cooked with high quality fread fdasd ingredients."
+        },
+        {
+            "id": 2,
+            "productNo": "json-server",
+            "productName": "Seafood",
+            "availableProduct": "5",
+            "image": "assets/img/img2.jpg",
+            "price": 10,
+            "info": "this is seee saaread"
+        },
+        {
+            "id": 3,
+            "productNo": "json-server",
+            "productName": "Bakery",
+            "availableProduct": "8",
+            "image": "assets/img/img3.jpg",
+            "price": 15,
+            "info": "this is seee saa"
+        },
+        {
+            "id": 4,
+            "productNo": "json-server",
+            "productName": "Dairy",
+            "availableProduct": "3",
+            "image": "assets/img/img4.jpg",
+            "price": 25,
+            "info": "this is seee saa"
+        },
+        {
+            "id": 5,
+            "productNo": "json-server",
+            "productName": "Fruit and Vegetables",
+            "availableProduct": "54",
+            "image": "assets/img/img5.jpg",
+            "price": 35,
+            "info": "this is seee saa"
+        },
+        {
+            "id": 6,
+            "productNo": "json-server",
+            "productName": "Take away",
+            "availableProduct": "23",
+            "image": "assets/img/img6.jpg",
+            "price": 45,
+            "info": "this is seee saa"
+        },
+        {
+            "id": 7,
+            "productNo": "json-server",
+            "productName": "Takerriage",
+            "availableProduct": "56",
+            "image": "assets/img/img7.jpg",
+            "price": 47,
+            "info": "this is seee saa"
+        },
+        {
+            "id": 8,
+            "productNo": "json-server",
+            "productName": "orioca",
+            "availableProduct": "78",
+            "image": "assets/img/img8.jpg",
+            "price": 47,
+            "info": "this is seee saa"
+        }
+    ]
+}

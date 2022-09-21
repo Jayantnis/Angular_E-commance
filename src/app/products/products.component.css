@@ -1,0 +1,160 @@
+    .left {
+        width: 35ch;
+    }
+    
+    .right {
+        width: 110ch;
+        /* margin-left: 2ch; */
+    }
+    
+    * {
+        box-sizing: border-box;
+        padding: 2px;
+        margin: 2px;
+        font-size: 14px;
+    }
+    /* Create two unequal columns that floats next to each other */
+    
+    .column {
+        /* width: fit-content; */
+        float: left;
+        padding: 10px;
+        height: 300px;
+        /* Should be removed. Only for demonstration */
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* styles */
+    
+    #set1,
+    #set2 {
+        /* border: 1px solid rgb(0, 0, 0); */
+    }
+    
+    #set2 {
+        /* margin-left: 4px; */
+        /* margin-right: 8ch; */
+    }
+    
+    #setblow {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        /* margin-left: 34px; */
+    }
+    
+    .input-group {
+        margin-left: 23px;
+    }
+    
+    h4 {
+        margin-left: 6ch;
+        font-weight: bold;
+    }
+    
+    .container-fulid {
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        margin: 14px;
+        border: 1px solid black;
+        /* border-radius: 20px; */
+    }
+    
+    .search {
+        border-radius: 15px;
+    }
+    
+    .column-cent {
+        border: 1px solid rgb(0, 0, 0);
+        width: 32.5ch;
+    }
+    
+    .set1f {
+        /* display: c; */
+        margin-left: 4ch;
+        width: 30px;
+        /* align: center; */
+    }
+    
+    .abs {
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    .abs:hover {
+        background-color: skyblue;
+    }
+    
+    .bor {
+        border: 1px solid rgb(14, 14, 14);
+        margin-left: 9px;
+    }
+    
+    .list-group {
+        width: 30ch;
+    }
+    /*  */
+    
+    div img {
+        border-radius: 24px;
+        width: 222px;
+        padding: 10px;
+        height: 15ch;
+    }
+    
+    .card {
+        display: inline-block;
+        align-items: center;
+        padding: 22px;
+        width: 31ch;
+        margin-right: 11px;
+        /* margin-left: 0px; */
+        /* height: fit-content; */
+    }
+    
+    .card-img {
+        padding: 40px;
+        height: 20px;
+        width: 207px;
+    }
+    
+    #setimg {
+        height: 15ch;
+        width: 20ch;
+        margin-left: 4ch;
+        border-radius: 20px;
+    }
+    
+    .container-fluid {
+        margin: 20px;
+    }
+    
+    .btn {
+        line-height: 2;
+        padding: 0px;
+        margin-left: 4ch;
+        /* margin-right: 3px; */
+        width: 90px;
+        height: 37px;
+    }
+    
+    p {
+        margin-left: 7ch;
+        /* font-weight: bold; */
+        font-size: 20px;
+    }
+    
+    .tag {
+        background-color: rgb(141, 241, 141);
+        border-radius: 10px;
+    }
+    
+    img {
+        width: 60px;
+        height: 20px;
+    }

@@ -1,0 +1,32 @@
+div img {
+    padding: 10px;
+    height: 40ch;
+}
+
+.card {
+    display: inline-flex;
+    align-items: center;
+    /* padding: px; */
+    width: 35ch;
+    margin-right: 6px;
+}
+
+.card-img {
+    height: 20px;
+}
+
+#setimg {
+    height: 15ch;
+    width: 20ch;
+    border-radius: 20px;
+}
+
+.btn {
+    line-height: 1.8;
+    margin-left: 11ch;
+}
+
+.card-title,
+.catd-text {
+    margin: 5px;
+}
